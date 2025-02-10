@@ -27,50 +27,33 @@
            <button class = "location-button">
                 <span class="material-symbols-rounded">my_location</span>
            </button>
-        </div>   
+        </div>  
+        
+        <div class="no-results">
+            <img src="icons/no-result.svg" class="weather-icon" alt="">
+            <h3 class="title">Something went wrong!</h3>
+            <p class="message">
+                We're unable to retrieve the weather details. Ensure you've entered a valid city or try again later.
+            </p>
+        </div>
        
        <!-- weather section -->
         <div class="weather-section">
             <!-- current weather -->
             <div class="current-weather">
                 <img src="icons/clouds.svg" alt="" class ="weather-icon">
-                <h2 class="temperature">20 <span>°C</span></h2>
-                <p class="describe">Partly cloudy</p>
+                <h2 class="temperature">00<span>°C</span></h2>
+                <p class="description">Weather Description</p>
             </div>
         </div>
 
         <!-- hourly weather-forecast -->
         <div class="hourly-weather">
-            <ul class="weather-list">
-                <li class="weather-item">
-                    <p class="time">00:00</p>
-                    <img src="icons/clouds.svg" alt="" class ="weather-icon">
-                    <p class="temperature">20°</p>
-                </li>
-                <li class="weather-item">
-                    <p class="time">00:00</p>
-                    <img src="icons/clouds.svg" alt="" class ="weather-icon">
-                    <p class="temperature">20°</p>
-                </li><li class="weather-item">
-                    <p class="time">00:00</p>
-                    <img src="icons/clouds.svg" alt="" class ="weather-icon">
-                    <p class="temperature">20°</p>
-                </li><li class="weather-item">
-                    <p class="time">00:00</p>
-                    <img src="icons/clouds.svg" alt="" class ="weather-icon">
-                    <p class="temperature">20°</p>
-                </li><li class="weather-item">
-                    <p class="time">00:00</p>
-                    <img src="icons/clouds.svg" alt="" class ="weather-icon">
-                    <p class="temperature">20°</p>
-                </li><li class="weather-item">
-                    <p class="time">00:00</p>
-                    <img src="icons/clouds.svg" alt="" class ="weather-icon">
-                    <p class="temperature">20°</p>
-                </li>
-            </ul>
+            <ul class="weather-list"></ul>
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
