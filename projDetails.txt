@@ -9,7 +9,9 @@ html
     -- curr
     -- hourly
 
-
+// in js files 
+    // for city name both locally and dynamically done
+    
 
 
 
