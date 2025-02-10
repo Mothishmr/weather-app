@@ -1,0 +1,20 @@
+html
+
+// search section  
+
+   -- input (entering city name)
+   -- locate
+
+// weather section
+    -- curr
+    -- hourly
+
+
+
+
+
+
+
+CSS
+    
+
