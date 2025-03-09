@@ -110,5 +110,5 @@ locationButton.addEventListener("click" , () => {
     })
 });
 
-// Initial weather request for london as default city;
+// Initial weather request for vijayawada as default city;
 setupWeatherRequest("vijayawada");
