@@ -56,7 +56,7 @@ const getWeatherDetails = async(API_URL) => {
         const data = await response.json();
 
         // extract current weather details
-         const temperature = Math.floor(data.current.temp_c);
+        const temperature = Math.floor(data.current.temp_c);
         const description = data.current.condition.text;
         const weatherIcon = Object.keys(weatherCodes).find(icon => weatherCodes[icon].includes(data.current.condition.code));
 
@@ -70,7 +70,7 @@ const getWeatherDetails = async(API_URL) => {
 
         displayHourlyForecast(combinedHourlyData);
 
-        console.log(data);
+        searchInput.value = data.location.name;
     }catch(error){
         document.body.classList.add("show-no-results");
     }
